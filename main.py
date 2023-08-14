@@ -6,6 +6,8 @@ app = FastAPI()
 
 
 df_general = pd.read_parquet('asdf.parquet')
+df_business = pd.read_parquet('business_google_yelp.parquet')
+
 
 def get_business_user(user_id):
     # Se ingresa un 'User_ID' y retorna un DataFrame con los negocios que visitó que tengan mayor o igual a 4 estrellas
@@ -41,7 +43,8 @@ def recomendacion(user_id):
     recomendacion_texto = []
 
     for cantidad in range(len(states)):
-        recomendacion_texto_base = "Para el estado de " + states[cantidad] + " te recomendamos los siguientes lugares: " + ", ".join(recomendacion_stateS[cantidad])
+        recomendado = df_business[df_business['ID_Business'] == recomendacion_stateS[cantidad]]['Name'].to_list()[0]
+        recomendacion_texto_base = "Para el estado de " + states[cantidad] + " te recomendamos los siguientes lugares: " + ", ".join(recomendado)
         recomendacion_texto.append(recomendacion_texto_base)
-    #return get_estados_str(recomendacion_texto)
-    return {"Recomendación": recomendacion_texto}
+        
+    return {"Recomendación": ". ".join(recomendacion_texto)}
