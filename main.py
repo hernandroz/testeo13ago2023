@@ -44,4 +44,4 @@ def recomendacion(user_id):
         recomendacion_texto_base = "Para el estado de " + states[cantidad] + " te recomendamos los siguientes lugares: " + ", ".join(recomendacion_stateS[cantidad])
         recomendacion_texto.append(recomendacion_texto_base)
     #return get_estados_str(recomendacion_texto)
-    return print(".\n\n".join(recomendacion_texto))
+    return {"Recomendación": recomendacion_texto}
