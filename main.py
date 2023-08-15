@@ -27,7 +27,14 @@ def get_top_business_state(state):
 def get_states(User_ID):
     return list(df_general[df_general['User_ID'] == User_ID]['State'].unique())
 
-
+def nombre_negocio(lista_ids):
+    df_business = pd.read_parquet('business_google_yelp.parquet')
+    recomendacion_texto2 = []
+    for id in lista_ids:
+        s = df_business[df_business['ID_Business'] == id]
+        e = s['Name'].to_list()[0]
+        recomendacion_texto2.append(e)
+    return recomendacion_texto2
 
 
 @app.get("/recomendacion/{user_id}")
@@ -43,8 +50,8 @@ def recomendacion(user_id):
     recomendacion_texto = []
 
     for cantidad in range(len(states)):
-        recomendado = df_business[df_business['ID_Business'] == recomendacion_stateS[cantidad]]['Name'].to_list()[0]
+        recomendado = nombre_negocio(recomendacion_stateS[cantidad])
         recomendacion_texto_base = "Para el estado de " + states[cantidad] + " te recomendamos los siguientes lugares: " + ", ".join(recomendado)
         recomendacion_texto.append(recomendacion_texto_base)
-        
+    
     return {"Recomendación": ". ".join(recomendacion_texto)}
