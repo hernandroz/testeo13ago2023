@@ -5,17 +5,13 @@ reseña en Google Maps o Yelp.
 
 ## Tecnologías Utilizadas
 
-| ![Imagen 1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Python-logo-notext.png) | ![Imagen 2](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Visual_Studio_Code_1.35_icon.svg.png) | ![Imagen 3](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Pandas_logo.svg.png) |
-|:-----------------------:|:-----------------------:|:-----------------------:|
-|    Python        |    Visual Studio Code        |    Pandas        |
+| ![Imagen 1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Python-logo-notext.png) | ![Imagen 2](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Visual_Studio_Code_1.35_icon.svg.png) | ![Imagen 3](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Pandas_logo.svg.png) | ![Imagen 4](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/2560px-Scikit_learn_logo_small.svg.png) 
+|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
+|    Python        |    Visual Studio Code        |    Pandas        |    Scikit-learn        
 
-| ![Imagen 4](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/2560px-Scikit_learn_logo_small.svg.png) | ![Imagen 5](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/uvicorn.png) | ![Imagen 6](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/1_UQpQJjVtSuUFxXmb64hqYw.png) |
-|:-----------------------:|:-----------------------:|:-----------------------:|
-|    Scikit-learn        |    Uvicorn        |    FastAPI        |
-
-| ![Imagen 7](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/MRd3wYu7.png) | ![Imagen 8](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/image27_frqkzv.png) |
-|:-----------------------:|:-----------------------:|
-|    render.com        |    streamlit        |
+| ![Imagen 4](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/uvicorn.png) | ![Imagen 5](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/1_UQpQJjVtSuUFxXmb64hqYw.png) | ![Imagen 6](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/MRd3wYu7.png) | ![Imagen 7](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/image27_frqkzv.png) |
+|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
+|    Uvicorn        |    FastAPI        |    render.com        |    streamlit        
 
 
 
