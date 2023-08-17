@@ -5,17 +5,18 @@ reseña en Google Maps o Yelp.
 
 ## Tecnologías Utilizadas
 
-| ![Imagen 1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Python-logo-notext.png?raw=true) | ![Imagen 2](imagen2.png) | ![Imagen 3](imagen3.png) |
+| ![Imagen 1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Python-logo-notext.png) | ![Imagen 2](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Visual_Studio_Code_1.35_icon.svg.png) | ![Imagen 3](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Pandas_logo.svg.png) |
 |:-----------------------:|:-----------------------:|:-----------------------:|
-|    Descripción 1        |    Descripción 2        |    Descripción 3        |
+|    Python        |    Visual Studio Code        |    Pandas        |
 
-| ![Imagen 4](imagen4.png) | ![Imagen 5](imagen5.png) | ![Imagen 6](imagen6.png) |
+| ![Imagen 4](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/2560px-Scikit_learn_logo_small.svg.png) | ![Imagen 5](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/uvicorn.png) | ![Imagen 6](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/1_UQpQJjVtSuUFxXmb64hqYw.png) |
 |:-----------------------:|:-----------------------:|:-----------------------:|
-|    Descripción 4        |    Descripción 5        |    Descripción 6        |
+|    Scikit-learn        |    Uvicorn        |    FastAPI        |
 
-| ![Imagen 7](imagen7.png) |
-|:-----------------------:|
-|    Descripción 7        |
+| ![Imagen 7](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/MRd3wYu7.png) | ![Imagen 8](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/image27_frqkzv.png) |
+|:-----------------------:|:-----------------------:|
+|    render.com        |    streamlit        |
+
 
 
 
@@ -27,7 +28,8 @@ reseña en Google Maps o Yelp.
 - scikit-learn
 - uvicorn
 - FastAPI
-- Visual Studio Code
+- render.com
+- Streamlit
 - ... (otras tecnologías utilizadas)
 
 
