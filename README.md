@@ -14,21 +14,6 @@ reseña en Google Maps o Yelp.
 |    Uvicorn        |    FastAPI        |    render.com        |    streamlit        
 
 
-
-
-
-
-- Python
-- Visual Studio Code
-- pandas
-- scikit-learn
-- uvicorn
-- FastAPI
-- render.com
-- Streamlit
-- ... (otras tecnologías utilizadas)
-
-
 ## Uso
 
 Describe cómo los usuarios pueden interactuar con tu proyecto. Si tienes una API, explica cómo hacer solicitudes. Si hay una interfaz de usuario, instruye cómo ejecutarla y qué acciones pueden realizar los usuarios.
