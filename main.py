@@ -11,6 +11,21 @@ app = FastAPI()
 
 # LECTURA DE DATASETS:
 
+df1 = pd.read_parquet('reviews_google_yelp_lote1.parquet')
+df2 = pd.read_parquet('reviews_google_yelp_lote2.parquet')
+df3 = pd.read_parquet('reviews_google_yelp_lote3.parquet')
+df4 = pd.read_parquet('reviews_google_yelp_lote4.parquet')
+df5 = pd.read_parquet('reviews_google_yelp_lote5.parquet')
+df6 = pd.read_parquet('reviews_google_yelp_lote6.parquet')
+df7 = pd.read_parquet('reviews_google_yelp_lote7.parquet')
+df8 = pd.read_parquet('reviews_google_yelp_lote8.parquet')
+df9 = pd.read_parquet('reviews_google_yelp_lote8.parquet')
+df10 = pd.read_parquet('reviews_google_yelp_lote10.parquet')
+df11 = pd.read_parquet('reviews_google_yelp_lote11.parquet')
+df12 = pd.read_parquet('reviews_google_yelp_lote12.parquet')
+df_general = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8, df9, df10, df11, df12], ignore_index = True)
+df_general = df_general.reset_index(drop = True)
+
 df_general = pd.read_parquet('asdf.parquet')
 df_business = pd.read_parquet('business_google_yelp.parquet')
 
