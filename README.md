@@ -5,15 +5,29 @@ reseña en Google Maps o Yelp.
 
 ## Tecnologías Utilizadas
 
+| ![Imagen 1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/Python-logo-notext.png?raw=true) | ![Imagen 2](imagen2.png) | ![Imagen 3](imagen3.png) |
+|:-----------------------:|:-----------------------:|:-----------------------:|
+|    Descripción 1        |    Descripción 2        |    Descripción 3        |
+
+| ![Imagen 4](imagen4.png) | ![Imagen 5](imagen5.png) | ![Imagen 6](imagen6.png) |
+|:-----------------------:|:-----------------------:|:-----------------------:|
+|    Descripción 4        |    Descripción 5        |    Descripción 6        |
+
+| ![Imagen 7](imagen7.png) |
+|:-----------------------:|
+|    Descripción 7        |
+
+
 
 
 
 - Python
+- Visual Studio Code
 - pandas
 - scikit-learn
 - uvicorn
 - FastAPI
-- Streamlit
+- Visual Studio Code
 - ... (otras tecnologías utilizadas)
 
 
