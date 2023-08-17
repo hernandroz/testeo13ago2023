@@ -1,6 +1,7 @@
-# Nombre del Proyecto
+# Sistema de recomendación de restaurantes
 
-Breve descripción del proyecto y su propósito. Explica cómo funciona tu sistema de recomendación de restaurantes y cuál es su valor.
+Sistema que utiliza el filtrado colaborativo y la similitud por coseno para recomendar restaurantes a usuarios que cuenten con al menos una
+reseña en Google Maps o Yelp.
 
 ## Tecnologías Utilizadas
 
