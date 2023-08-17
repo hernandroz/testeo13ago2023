@@ -11,7 +11,7 @@ app = FastAPI()
 
 # LECTURA DE DATASETS:
 
-df = pd.read_parquet('asdf.parquet')
+df_general = pd.read_parquet('asdf.parquet')
 df_business = pd.read_parquet('business_google_yelp.parquet')
 
 
