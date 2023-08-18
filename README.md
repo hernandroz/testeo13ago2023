@@ -70,8 +70,7 @@ estados en los que el usuario haya estado antes o cercanos.
 
 ## Ejemplos
 
-Ofrece ejemplos de código o capturas de pantalla que muestren cómo utilizar tu proyecto en diferentes situaciones.
-
+![Captura_pantalla](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/55d4h.png)
 
 ## Licencia
 
