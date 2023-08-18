@@ -16,14 +16,15 @@ reseña en Google Maps o Yelp.
 
 ## Uso
 
-Cualquier persona puede acceder a nuestro sistema de recomendación mediante el siguiente link: [Streamlit](https://streamlit.io/)
-Se deberá ingresar un id de usuario y el sistema retornará recomendación de restaurantes cercanos.
-
-## Configuración
-
-Si tu proyecto requiere configuración especial, como ajustes de parámetros o configuración de bases de datos, describe cómo realizar esas configuraciones.
+Cualquier persona puede acceder a nuestro sistema de recomendación mediante el siguiente link: [Streamlit](https://streamlit.io/).
+Se deberá ingresar un id de usuario y el sistema retornará recomendación de restaurantes cercanos al usuario.
 
 ## Estructura del Proyecto
+
+El algoritmo de recomendación se desarrolló utilizando el lenguaje de programación Python, y consta de la siguiente estructura:
+
+-1. Eliminación de reviews del mismo usuario: Transformaremos nuestro dataset para quedarnos con una sola review única por cada usuario.
+Si un usuario tiene registradas más de 1 review, solo se considerará la efectuada más recientemente y las demás se eliminaran.
 
 Proporciona una descripción general de la estructura de tu proyecto, incluyendo directorios y archivos clave.
 
