@@ -55,11 +55,11 @@ Una función que tiene como entrada el id de un usuario y que retorna en formato
 (si hay más de una solo se considera la más reciente)
 
 
-## 8. Función Similitud de Coseno:
+### 8. Función Similitud de Coseno:
 Función que tiene como entrada todas las reviews y que retorna una lista de los 5 negocios con mayor reputación
 en las reseñas escritas por sus usuarios.
 
-## 9. Función Recomendación:
+### 9. Función Recomendación:
 Es nuestra función final. Como entrada se espera el id de un usuario, y en el proceso se utilizarán todas las funciones mencionadas
 anteriormente con el objetivo de finalmente recomendar los 5 mejores restaurantes para el usuario (si el usuario anteriormente ha
 dejado reviews en varios estados, se le recomendará restaurantes de más de un estado). En esencia, esta función de recomendación 
