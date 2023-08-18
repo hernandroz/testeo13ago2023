@@ -1,7 +1,7 @@
 # Sistema de recomendación de restaurantes
 
 Sistema que utiliza el filtrado colaborativo y la similitud por coseno para recomendar restaurantes a usuarios que cuenten con al menos una
-reseña en Google Maps o Yelp.
+reseña en Google Maps o Yelp. Se consideran restaurantes ubicados en Estados Unidos y registrados en las plataformas anteriormente mencionadas.
 
 ## Tecnologías Utilizadas
 
@@ -24,8 +24,19 @@ Se deberá ingresar un id de usuario y el sistema retornará recomendación de r
 El algoritmo de recomendación se desarrolló utilizando el lenguaje de programación Python, y consta de la siguiente estructura:
 
 ### 1. Eliminación de reviews del mismo usuario: 
-Transformaremos nuestro dataset para quedarnos con una sola review única por cada usuario.
+Transformaremos nuestro dataset para quedarnos con una sola review por cada usuario.
 Si un usuario tiene registradas más de 1 review, solo se considerará la efectuada más recientemente y las demás se eliminaran.
+(El desarrollo de esta transformación puede considerarse para una carga incremental)
+
+### 2. Creación de una función para obtener los restaurantes top que visitó un usuario: 
+Con nuestro dataset ya transformado, proseguiremos a crear nuestras funciones necesarias para nuestro sistema de
+recomendación final. Primero crearemos una función cuya entrada sea un id de usuario y que retorne en formato conjunto 
+todos los id de los restaurantes que el usuario visitó y que tengan una calificación promedio mínima de 4.5 estrellas.
+
+### 3. Creación de una función para obtener los restaurantes top de un estado:
+Ahora crearemos una función cuya entrada sea el nombre de un estado de Estados Unidos y cuyo retorno sea 
+
+
 
 Proporciona una descripción general de la estructura de tu proyecto, incluyendo directorios y archivos clave.
 
