@@ -1,7 +1,8 @@
 # Sistema de recomendación de restaurantes
 
 Sistema que utiliza el filtrado colaborativo y la similitud por coseno para recomendar restaurantes a usuarios que cuenten con al menos una
-reseña en Google Maps o Yelp. Se consideran restaurantes ubicados en Estados Unidos y registrados en las plataformas anteriormente mencionadas.
+reseña en Google Maps o Yelp. Se consideran restaurantes ubicados en Estados Unidos y registrados en las plataformas anteriormente mencionadas,
+en las cuales pueden dejarse reseñas y asignar estrellas del 1 al 5.
 
 ## Tecnologías Utilizadas
 
@@ -34,7 +35,17 @@ recomendación final. Primero crearemos una función cuya entrada sea un id de u
 todos los id de los restaurantes que el usuario visitó y que tengan una calificación promedio mínima de 4.5 estrellas.
 
 ### 3. Creación de una función para obtener los restaurantes top de un estado:
-Ahora crearemos una función cuya entrada sea el nombre de un estado de Estados Unidos y cuyo retorno sea 
+Ahora crearemos una función cuya entrada sea el nombre de un estado de Estados Unidos y cuyo retorno sea un conjunto de los
+id de negocios que pertenezcan a dicho estado, tengan por lo menos 15 reviews, y una calificación promedio mínima de 4.5 estrellas.
+
+### 4. Creación de una función para obtener una tabla (DataFrame) de las 5 mejores reviews de determinados negocios:
+Creamos una función cuya entrada sea una lista de id de negocios y cuyo retorno sea un Dataframe conteniendo a los negocios con sus
+mejores 5 reviews asignadas (es decir, sus 5 reviews con mayor asignación de estrellas).
+
+## 5. Creación de una función para obtener todos los estados de las reviews de un usuario:
+Función que tiene como entrada el id de un usuario y retorna una lista de los estados a los que pertenecían los restaurantes
+de sus reviews.
+
 
 
 
