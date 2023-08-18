@@ -70,7 +70,8 @@ estados en los que el usuario haya estado antes o cercanos.
 
 ## Ejemplos
 
-![Captura_pantalla](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/55d4h.png)
+![Captura_pantalla1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/web_1.png)
+![Captuda_pantalla2](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/web_2.png)
 
 ## Licencia
 
