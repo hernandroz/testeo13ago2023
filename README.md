@@ -70,7 +70,9 @@ estados en los que el usuario haya estado antes o cercanos.
 
 ## Ejemplos
 
+Al ingresar a la página web, la interfaz será la siguiente:
 ![Captura_pantalla1](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/web_1.png)
+Se deberá ingresar un id y una contraseña:
 ![Captuda_pantalla2](https://github.com/hernandroz/testeo13ago2023/blob/main/imagenes_readme/web_2.png)
 
 ## Licencia
