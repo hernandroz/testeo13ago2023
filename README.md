@@ -16,9 +16,8 @@ reseña en Google Maps o Yelp.
 
 ## Uso
 
-Describe cómo los usuarios pueden interactuar con tu proyecto. Si tienes una API, explica cómo hacer solicitudes. Si hay una interfaz de usuario, instruye cómo ejecutarla y qué acciones pueden realizar los usuarios.
-
-Si tu proyecto consta de varios componentes, proporciona una guía paso a paso para cada parte.
+Cualquier persona puede acceder a nuestro sistema de recomendación mediante el siguiente link: [Streamlit](https://streamlit.io/)
+Se deberá ingresar un id de usuario y el sistema retornará recomendación de restaurantes cercanos.
 
 ## Configuración
 
