@@ -17,7 +17,7 @@ en las cuales pueden dejarse reseñas y asignar estrellas del 1 al 5.
 
 ## Uso
 
-Cualquier persona puede acceder a nuestro sistema de recomendación mediante el siguiente link: [Streamlit](https://streamlit.io/).
+Cualquier persona puede acceder a nuestro sistema de recomendación mediante este [link](https://prueba13ago2023.onrender.com/docs).
 Se deberá ingresar un id de usuario y el sistema retornará recomendación de restaurantes cercanos al usuario.
 
 ## Estructura del Proyecto
