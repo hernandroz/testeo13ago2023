@@ -42,36 +42,37 @@ id de negocios que pertenezcan a dicho estado, tengan por lo menos 15 reviews, y
 Creamos una función cuya entrada sea una lista de id de negocios y cuyo retorno sea un Dataframe conteniendo a los negocios con sus
 mejores 5 reviews asignadas (es decir, sus 5 reviews con mayor asignación de estrellas).
 
-## 5. Creación de una función para obtener todos los estados de las reviews de un usuario:
+### 5. Creación de una función para obtener todos los estados de las reviews de un usuario:
 Función que tiene como entrada el id de un usuario y retorna una lista de los estados a los que pertenecían los restaurantes
 de sus reviews.
 
+### 6. Creación de una función para convertir una lista de id de negocios a una lista de sus nombres respectivos:
+Función que tiene como entrada una lista de id de negocios y que retorna una lista con los nombres asignados a cada id
+respectivamente.
+
+### 7. Creación de una función para obtener la reseña con más estrellas de un usuario:
+Una función que tiene como entrada el id de un usuario y que retorna en formato string su reseña con más estrellas 
+(si hay más de una solo se considera la más reciente)
 
 
+## 8. Función Similitud de Coseno:
+Función que tiene como entrada todas las reviews y que retorna una lista de los 5 negocios con mayor reputación
+en las reseñas escritas por sus usuarios.
 
-Proporciona una descripción general de la estructura de tu proyecto, incluyendo directorios y archivos clave.
+## 9. Función Recomendación:
+Es nuestra función final. Como entrada se espera el id de un usuario, y en el proceso se utilizarán todas las funciones mencionadas
+anteriormente con el objetivo de finalmente recomendar los 5 mejores restaurantes para el usuario (si el usuario anteriormente ha
+dejado reviews en varios estados, se le recomendará restaurantes de más de un estado). En esencia, esta función de recomendación 
+utiliza los intereses de usuarios con gustos similares, restaurantes con mejores calificaciones y mejores reseñas, y que pertenezcan a
+estados en los que el usuario haya estado antes o cercanos.
+
+
 
 ## Ejemplos
 
 Ofrece ejemplos de código o capturas de pantalla que muestren cómo utilizar tu proyecto en diferentes situaciones.
 
-## Contribuciones
-
-Si aceptas contribuciones, describe cómo los colaboradores pueden participar. Incluye pautas para informar problemas y enviar solicitudes de extracción.
 
 ## Licencia
 
-Indica bajo qué licencia se distribuye tu proyecto.
-
-## Créditos
-
-Agradece a bibliotecas, recursos y fuentes de datos que hayas utilizado en tu proyecto, así como a los autores de las tecnologías clave.
-
-## Contacto
-
-Proporciona información de contacto para ti o tu equipo.
-
-## Agradecimientos
-
-Agradece a las personas o recursos que te han ayudado en el desarrollo del proyecto.
-
+Algoritmo desarrollado  por los Data Scientist Hernán Hernández Rodríguez y Fernando Cabrera Contreras 
